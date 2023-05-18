@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(150, 224, 223, 0.42);
+}
+
+.outer-box{
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(182, 229, 125, 0.62);
+  border-radius: 10px;
+  gap: 100px;
+  .circle{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .controls{
+    display: flex;
+    gap: 20px;
+  }
+  button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: #e1ef09;
+    &:hover{
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.29) inset;
+    }
+    &:active{
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.29) inset;
+
+    }
+  }
+}
